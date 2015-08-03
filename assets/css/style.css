@@ -667,7 +667,17 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #preloader {
-	background: #FFF;
+	background-color: #FFF;
+    background-image: url("../images/pattern.png");
+    background-repeat: repeat;
+    /*height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;*/
+
+	/*background: #FFF;*/
 	bottom: 0;
 	left: 0;
 	position: fixed;
@@ -676,10 +686,15 @@ textarea.form-control {
 	z-index: 9999;
 }
 
+#preloader-overlay {
+	background-image: url("../images/pattern.png");
+}
+
 #status {
 	background-image: url(../images/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: 50px;
 	height: 200px;
 	left: 50%;
 	margin: -100px 0 0 -100px;
