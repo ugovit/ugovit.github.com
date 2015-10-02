@@ -342,7 +342,7 @@ textarea.form-control {
  * Home
 /* ---------------------------------------------- */
 
-#home {
+/*#home {
 	background: url(../images/cover.jpg);
 	background-color: #222;
 	background-attachment: fixed;
@@ -353,11 +353,11 @@ textarea.form-control {
 		 -o-background-size: cover;
 			background-size: cover;
 	padding: 0;
-}
+}*/
 
 .home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
+    background-color: #488ccb;
+    /*background-image: url("../images/pattern.png");*/
     background-repeat: repeat;
     height: 100%;
     left: 0;
@@ -392,8 +392,9 @@ textarea.form-control {
 	font-size: 20px;
 	font-style: normal;
 	text-transform: none;
+	color: black;
 	margin: 15px 0;
-	text-shadow: 2px 2px 1px #000000;
+	/*text-shadow: 2px 2px 1px #000000;*/
 }
 
 /* ---------------------------------------------- /*
@@ -552,7 +553,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	color: #488ccb;
 }
 
 .navbar-custom .navbar-brand {
@@ -564,6 +565,7 @@ textarea.form-control {
     background-size: contain;
     background-repeat: no-repeat;
     width: 150px;
+    margin-top: 2px;
 }
 
 .navbar-custom .dropdown-menu {
@@ -668,39 +670,6 @@ textarea.form-control {
 
 #preloader {
 	background-color: #FFF;
-    background-image: url("../images/pattern.png");
-    background-repeat: repeat;
-    /*height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;*/
-
-	/*background: #FFF;*/
-	bottom: 0;
-	left: 0;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 9999;
-}
-
-#preloader-overlay {
-	background-image: url("../images/pattern.png");
-}
-
-#status {
-	background-image: url(../images/preloader.gif);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 50px;
-	height: 200px;
-	left: 50%;
-	margin: -100px 0 0 -100px;
-	position: absolute;
-	top: 50%;
-	width: 200px;
 }
 
 /* ---------------------------------------------- /*
@@ -1059,3 +1028,13 @@ figure.effect-bubba:hover p {
 	width: 50px;
 }
 
+.left-logo {
+	background-image: url(../images/ugovit-logo-big.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.right-side {
+	background: url(../images/cover.jpg);	
+}
