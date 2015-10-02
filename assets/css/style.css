@@ -669,7 +669,19 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #preloader {
-	background-color: #FFF;
+	background-color: #488ccb;
+	z-index: 9999;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;*/
+
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
 }
 
 /* ---------------------------------------------- /*
